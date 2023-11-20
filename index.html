@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <input type="text" class="searchbox" id="moviesearched" placeholder="Search for any movie..">
+        <button class="btn" onclick="movieinfo()">Search Movie</button>
+    </div>
+    <div class="movieinfocontainer" id="movieinfocontainer">
+        <div>
+        <h2 id="title"> The Avengers</h2>
+        <p style="font-size: 14px;">Year:<span id="year" style="font-size: 14px;margin-left: 5px;"></span></p>
+        <p style="font-size: 14px;">Rated:<span id="rated" style="font-size: 14px;margin-left: 5px;"></span></p>
+        <p style="font-size: 14px;">Released:<span id="released" style="font-size: 14px;margin-left: 5px;"></span></p>
+        <p style="font-size: 14px;">Runtime:<span id="runtime" style="font-size: 14px;margin-left: 5px;"></span></p>
+        <p style="font-size: 14px;">Genre:<span id="genre" style="font-size: 14px;margin-left: 5px;"></span></p>
+        <p style="font-size: 14px;">Actors:<span id="actors" style="font-size: 14px;margin-left: 5px;"></span></p>
+        <p style="font-size: 14px;">Awards:<span id="awards" style="font-size: 14px;margin-left: 5px;"></span></p>
+        <p style="font-size: 14px;">Writer:<span id="writer" style="font-size: 14px;margin-left: 5px;"></span></p>
+        <p style="font-size: 14px;">Director:<span id="director" style="font-size: 14px;margin-left: 5px;"></span></p>
+        </div>
+        <div class="movieposter">
+        <img id="img">
+        <div class="imdbratingbox" id="imdbrating"></div>  
+    </div>   
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
